@@ -36,7 +36,7 @@ public class TaskManager {
         try {
             lines = Files.readAllLines(path);
         } catch (IOException e) {
-            System.out.print("Nie ma takiego pliku kurła");
+            System.out.print("Nie ma takiego pliku");
             return;
         }
         tasks = new String[lines.toArray().length][3];
