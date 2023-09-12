@@ -1,3 +1,3 @@
-# Workshop-1
+# First CRUD Project
 Console program for managing tasks.
 
